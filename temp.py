@@ -69,9 +69,6 @@ rolling_mean = df[companies].rolling(window=window_size).mean()
 st.subheader('Rolling Window Analysis')
 st.line_chart(rolling_mean)
 
-# 6. Stock Correlation
-correlation_matrix = df[companies].corr()
-st.subheader('Stock Correlation')
 
 # 7. Stock Performance Comparison
 normalized_prices = df[companies] / df[companies].iloc[0]
