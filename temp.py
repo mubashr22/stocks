@@ -72,7 +72,6 @@ st.line_chart(rolling_mean)
 # 6. Stock Correlation
 correlation_matrix = df[companies].corr()
 st.subheader('Stock Correlation')
-st.heatmap(correlation_matrix, cmap='coolwarm', annot=True)
 
 # 7. Stock Performance Comparison
 normalized_prices = df[companies] / df[companies].iloc[0]
