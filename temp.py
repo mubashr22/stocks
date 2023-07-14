@@ -6,7 +6,7 @@ This is a temporary script file.
 """
 
 import pandas as pd
-import matplotlib.pyplot as plt
+import matplotlib as plt
 import streamlit as st
 
 # Load the dataset into a Pandas DataFrame
